@@ -14,6 +14,14 @@ async function getMovies() {
 
   console.log(responseData);
 
+  //Getting the movie images and appending it to the body
+  //   responseData.results.forEach((movie) => {
+  //     let image = document.createElement("img");
+  //     image.src = imagePath + movie.poster_path;
+
+  //     document.body.appendChild(image);
+  //   });
+
   return responseData;
 }
 
