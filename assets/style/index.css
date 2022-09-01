@@ -10,10 +10,23 @@ body {
 }
 
 .movies {
-  height: 400px;
+  /* height: 400px; */
   width: 300px;
+  border-radius: 5px;
+  background-color: #4f7adf;
 }
 
 .movies img {
   max-width: 100%;
+}
+
+.movie-details {
+  padding: 0.4rem 0.8rem 0.8rem 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  color: antiquewhite;
+}
+
+.movie-details h3 {
+  margin: 0;
 }
