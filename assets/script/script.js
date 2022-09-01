@@ -7,6 +7,8 @@ const apiUrl =
 //Image path provided in the tmdb chat forum https://www.themoviedb.org/talk/5aeaaf56c3a3682ddf0010de
 const imagePath = "https://image.tmdb.org/t/p/w1280";
 
+const main = document.querySelector("main");
+
 async function getMovies() {
   // The await operator is used to wait for a Promise. It can only be used inside an async function within regular JavaScript code.
   const response = await fetch(apiUrl);
@@ -37,7 +39,7 @@ async function getMovies() {
         <span>${movie.vote_average}</span>
       </div>`;
 
-    document.body.appendChild(movieElement);
+    main.appendChild(movieElement);
   });
 
   return responseData;

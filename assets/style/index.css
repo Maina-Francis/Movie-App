@@ -26,6 +26,7 @@ body {
   display: flex;
   justify-content: space-between;
   color: antiquewhite;
+  align-items: center;
 }
 
 .movie-details h3 {
@@ -34,4 +35,9 @@ body {
 
 .movie-details span {
   background-color: #373b69;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
 }
