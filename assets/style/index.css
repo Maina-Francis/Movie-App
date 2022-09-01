@@ -14,6 +14,7 @@ body {
   width: 300px;
   border-radius: 5px;
   background-color: #4f7adf;
+  margin: 2rem;
 }
 
 .movies img {
@@ -29,4 +30,8 @@ body {
 
 .movie-details h3 {
   margin: 0;
+}
+
+.movie-details span {
+  background-color: #373b69;
 }
