@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+/* Body Section  */
 body {
   font-family: "Mukta", sans-serif;
   margin: 0;
@@ -13,6 +14,7 @@ body {
   /* height: 400px; */
   width: 300px;
   border-radius: 5px;
+  overflow: hidden;
   background-color: #4f7adf;
   margin: 2rem;
 }
@@ -35,9 +37,29 @@ body {
 
 .movie-details span {
   background-color: #373b69;
+  padding: 0.4rem 0.8rem;
 }
 
 main {
   display: flex;
   flex-wrap: wrap;
+}
+
+/* Header Section */
+header {
+  display: flex;
+  height: 3rem;
+  justify-content: space-between;
+  background-color: #373b69;
+}
+
+header input {
+  padding: 0.8rem;
+  border-radius: 50px;
+  border: 2px solid #4f7adf;
+  background-color: transparent;
+}
+.site-name {
+  font-weight: 700;
+  margin: 0;
 }
