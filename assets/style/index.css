@@ -51,6 +51,7 @@ header {
   height: 3rem;
   justify-content: space-between;
   background-color: #373b69;
+  margin: 1rem 5rem 0 2rem;
 }
 
 header input {
@@ -58,8 +59,11 @@ header input {
   border-radius: 50px;
   border: 2px solid #4f7adf;
   background-color: transparent;
+  color: antiquewhite;
 }
 .site-name {
+  height: 3rem;
   font-weight: 700;
+  font-size: x-large;
   margin: 0;
 }
