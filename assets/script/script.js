@@ -31,21 +31,22 @@ async function getMovies(url) {
   //   });
 
   //alternatively appending the images to the body after specifying its css properties
-  responseData.results.forEach((movie) => {
-    let movieElement = document.createElement("div");
-    movieElement.className = "movies";
 
-    movieElement.innerHTML = `
-        <img
-        src="${imagePath + movie.poster_path}" alt="${movie.title}" />
+  // responseData.results.forEach((movie) => {
+  //   let movieElement = document.createElement("div");
+  //   movieElement.className = "movies";
 
-      <div class="movie-details">
-        <h3>${movie.title}</h3>
-        <span>${movie.vote_average}</span>
-      </div>`;
+  //   movieElement.innerHTML = `
+  //       <img
+  //       src="${imagePath + movie.poster_path}" alt="${movie.title}" />
 
-    main.appendChild(movieElement);
-  });
+  //     <div class="movie-details">
+  //       <h3>${movie.title}</h3>
+  //       <span>${movie.vote_average}</span>
+  //     </div>`;
+
+  //   main.appendChild(movieElement);
+  // });
 
   searchMovies(responseData.results);
 }
@@ -54,18 +55,10 @@ async function getMovies(url) {
 const form = document.querySelector("form");
 const search = document.getElementsByClassName("search");
 
-form.addEventListener("submit", (event) => {
-  //prevent automatic form submission
-  event.preventDefault();
-
-  const searchTerm = search.value;
-
-  if (searchTerm) {
-    getMovies(searchAPI + searchTerm);
-  }
-});
-
 function searchMovies(movies) {
+  // clear the main
+  main.innerHTML = "";
+
   movies.forEach((movie) => {
     let movieElement = document.createElement("div");
     movieElement.className = "movies";
@@ -82,3 +75,15 @@ function searchMovies(movies) {
     main.appendChild(movieElement);
   });
 }
+
+form.addEventListener("submit", (event) => {
+  //prevent automatic form submission
+  event.preventDefault();
+
+  const searchTerm = search.value;
+
+  if (searchTerm) {
+    searchMovies(searchAPI + searchTerm);
+    search.value = "";
+  }
+});
