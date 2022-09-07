@@ -49,14 +49,14 @@ async function getMovies(url) {
   //   main.appendChild(movieElement);
   // });
 
-  searchMovies(responseData.results);
+  popularMovies(responseData.results);
 }
 
 // Handle the search inputs
 const form = document.getElementById("form");
 const search = document.getElementById("search");
 
-function searchMovies(movies) {
+function popularMovies(movies) {
   // clear the main
   main.innerHTML = "";
 
@@ -86,10 +86,10 @@ form.addEventListener("submit", (event) => {
 
   const searchTerm = search.value;
 
-  console.log(`This is the value of the searchTerm: ${searchTerm}`);
+  // console.log(`This is the value of the searchTerm: ${searchTerm}`);
 
   if (searchTerm) {
-    searchMovies(searchAPI + searchTerm);
+    getMovies(searchAPI + searchTerm);
     search.value = "";
   }
 });
