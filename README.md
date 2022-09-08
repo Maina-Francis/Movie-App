@@ -11,6 +11,7 @@ By Francis Maina.
 
 # Description
 Looking for movie suggestions? This is a website that displays my Popcorn TV movie recommendation site portfolio. The public API of The Movie Database (TMDB) was used to obtain the movie catalogue. The site organizes all of the most recent movies by popularity. You can also look up any movie and get its rating.
+The UI design of the site was borrowed from [UI Design Daily](https://uidesigndaily.com/posts/photoshop-movie-app-mobile-day-193) which is a free, Open-source UI design resource that is updated daily.
 # Requirements
 Either a computer, phone, tablet or an Ipad and access to the Internet.
 
