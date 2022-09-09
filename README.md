@@ -31,6 +31,6 @@ Slack Profile - Francis Maina Kabutha.
 
 [Linked-in](https://ke.linkedin.com/in/francis-maina-kabutha?trk=people-guest_people_search-card) -Francis Maina
 
-Twitter- @ThisisMaina
+[Twitter](https://twitter.com/ThisisMaina)- @ThisisMaina
 
 [Go Back to the top](https://github.com/Maina-Francis/Movie-App#movie-app)
