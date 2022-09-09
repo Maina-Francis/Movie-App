@@ -22,7 +22,7 @@ CSS - which was used to style the pages.
 
 Javascript - which was used to add interactivity to the site as well as manipulate the DOM
 
-TMDB - a public API which offers an editable database for movies and TV shows.
+[TMDB](https://www.themoviedb.org/documentation/api) - a public API which offers an editable database for movies and TV shows.
 
 
 
