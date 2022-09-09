@@ -33,4 +33,4 @@ Slack Profile - Francis Maina Kabutha.
 
 Twitter- @ThisisMaina
 
-[Go Back to the top](https://github.com/Maina-Francis/Movie-App/new/main?readme=1#movie-app)
+[Go Back to the top](https://github.com/Maina-Francis/Movie-App#movie-app)
