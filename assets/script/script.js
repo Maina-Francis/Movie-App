@@ -74,6 +74,11 @@ function popularMovies(movies) {
       <div class="movie-details">
         <h3>${movie.title}</h3>
         <span>${movie.vote_average}</span>
+      </div>
+
+      <div class="overview">
+      <h4>Overview</h4>
+        ${movie.overview}
       </div>`;
 
     main.appendChild(movieElement);
