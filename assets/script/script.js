@@ -89,6 +89,7 @@ form.addEventListener("submit", (event) => {
   // console.log(`This is the value of the searchTerm: ${searchTerm}`);
 
   if (searchTerm) {
+    // append the searchTerm to the search api url link to look up the movie
     getMovies(searchAPI + searchTerm);
     search.value = "";
   }

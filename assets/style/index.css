@@ -2,6 +2,30 @@
   box-sizing: border-box;
 }
 
+/* Header Section */
+header {
+  display: flex;
+  height: 3rem;
+  justify-content: space-between;
+  background-color: #373b69;
+  margin: 1rem 5rem 0 2rem;
+}
+
+header input {
+  padding: 0.8rem;
+  border-radius: 50px;
+  border: 2px solid #4f7adf;
+  background-color: transparent;
+  color: antiquewhite;
+}
+.site-name {
+  height: 3rem;
+  font-weight: 700;
+  font-size: x-large;
+  margin: 0;
+  letter-spacing: 0.1em;
+}
+
 /* Body Section  */
 body {
   font-family: "Mukta", sans-serif;
@@ -43,28 +67,4 @@ body {
 main {
   display: flex;
   flex-wrap: wrap;
-}
-
-/* Header Section */
-header {
-  display: flex;
-  height: 3rem;
-  justify-content: space-between;
-  background-color: #373b69;
-  margin: 1rem 5rem 0 2rem;
-}
-
-header input {
-  padding: 0.8rem;
-  border-radius: 50px;
-  border: 2px solid #4f7adf;
-  background-color: transparent;
-  color: antiquewhite;
-}
-.site-name {
-  height: 3rem;
-  font-weight: 700;
-  font-size: x-large;
-  margin: 0;
-  letter-spacing: 0.1em;
 }
