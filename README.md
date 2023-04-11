@@ -29,7 +29,7 @@ Javascript - which was used to add interactivity to the site as well as manipula
 # Authors Info
 Slack Profile - Francis Maina Kabutha.
 
-[Linked-in](https://ke.linkedin.com/in/francis-maina-kabutha?trk=people-guest_people_search-card) -Francis Maina
+[LinkedIn](https://ke.linkedin.com/in/francis-maina-kabutha?trk=people-guest_people_search-card) -Francis Maina
 
 [Twitter](https://twitter.com/ThisisMaina)- @ThisisMaina
 
